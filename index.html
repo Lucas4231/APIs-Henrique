@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
+    <title>Trabalho Lucas</title>
+</head>
+<body>
+    <h1 class="title-lucas">Trabalho de Programação e Desing | Lucas Rocha</h1>
+    <div class="api-1">
+        <h2 class="title-center">Cotação de criptomoedas</h2>
+        <h2 class="cripto-text">Valor: </h2>
+        <h2 id="lblValor"></h2>
+        <button class="glow-on-hover" type="button" id="btnclique"> Consultar!</button>
+    </div>
+    <div class="api-2">
+        <h2 class="title-center">Previsão do Tempo</h2>
+        <h2 class="cidadeTempo-text">Cidade: </h2>
+        <h2 id="lblTempo"></h2>
+        <h2 class="TempTempo-text">Temperatura: </h2>
+        <h2 id="lblTemperatura"></h2>
+        <h2 class="descTempo-text">Descrição: </h2>
+        <h2 id="lblDescricao"></h2>
+        <button class="glow-on-hover" type="button" id="btnTempo"> Consultar!</button>
+    </div>
+    <div class="api-3">
+        <h2 class="title-center">Preço do Dólar</h2>
+        <h2 id="lblnamedolar"></h2>
+        <h2 id="lblcompradolar"></h2>
+        <button class="glow-on-hover" type="button" id="btndolar"> Consultar!</button>
+    </div>
+    <div class="api-4">
+        <h2 class="title-center">Localização por IP</h2>
+        <h2 id="lbliplocation"></h2>
+        <h2 id="lbltypeIP"></h2>
+        <h2 id="lblipaddress"></h2>
+        <button class="glow-on-hover" type="button" id="btnip"> Consultar!</button>
+
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>
