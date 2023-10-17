@@ -14,10 +14,8 @@ Trabalho feito com o intuito acadêmico da matéria de Programação.
  * NodeJS
 
   ### Technologies
- * knex
- * nodemon
- * express
- * cors
- * Neon 
+ * Axios
+ * Cors
+ * Node
   ---
  Made with 💙 by [Lucas de Souza Rocha](Lucas4231)
